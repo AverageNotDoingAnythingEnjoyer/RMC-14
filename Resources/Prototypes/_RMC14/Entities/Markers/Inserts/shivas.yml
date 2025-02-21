@@ -1,0 +1,34 @@
+# Shivas
+- type: entity
+  abstract: true
+  parent: RMCMapInsertBase
+  id: RMCMapInsertShivasBase
+  suffix: Insert Shivas
+  components:
+  - type: MapInsert
+    clearEntities: true
+    clearDecals: true
+    replaceAreas: true
+
+# # LZ 2 Variations
+# - type: entity
+#   parent: RMCMapInsertShivasBase
+#   id: RMCMapInsertShivasSCDestroyed
+#   name: Medbay v3
+#   suffix: Insert Solaris
+#   components:
+#   - type: MapInsert
+#     spawn: "/Maps/_RMC14/Inserts/Shivas/lz2-south-caves/20.destroyed_lz2-south-caves.yml"
+#     probability: 0.2
+
+# - type: entity
+#   parent: RMCMapInsertShivasBase
+#   id: RMCMapInsertShivasSCBuiltup
+#   name: Medbay v3
+#   suffix: Insert Solaris
+#   components:
+#   - type: MapInsert
+#     spawn: "/Maps/_RMC14/Inserts/Shivas/lz2-south-caves/30.builtup_lz2-south-caves.yml"
+#     probability: 0.3
+
+
