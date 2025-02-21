@@ -1,0 +1,606 @@
+meta:
+  format: 6
+  postmapinit: false
+tilemap:
+  0: Space
+  651: CMFloorSteelShiva
+  1089: Plating
+  1094: RCMPlanetIce0
+  1095: RCMPlanetIce1
+  1096: RCMPlanetIce2
+  1099: RCMPlanetSnow2
+  1100: RCMPlanetSnow3
+  1101: RCMPlanetSnow4
+entities:
+- proto: ""
+  entities:
+  - uid: 1
+    components:
+    - type: MetaData
+      name: Map Entity
+    - type: Transform
+    - type: Map
+      mapPaused: True
+    - type: PhysicsMap
+    - type: GridTree
+    - type: MovedGrids
+    - type: Broadphase
+    - type: OccluderTree
+  - uid: 2
+    components:
+    - type: MetaData
+      name: grid
+    - type: Transform
+      pos: 4.9844704,5.0449743
+      parent: 1
+    - type: MapGrid
+      chunks:
+        0,0:
+          ind: 0,0
+          tiles: RwQAAAAAQQQAAAAAiwIAAAAAQQQAAAAAQQQAAAAAQQQAAAAAQQQAAAAAiwIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARwQAAAAAiwIAAAAARwQAAAAARwQAAAAASAQAAAAAQQQAAAAAQQQAAAAAiwIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiwIAAAAARgQAAAAARgQAAAAARwQAAAAAiwIAAAAAiwIAAAAARwQAAAAAiwIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAQAAAAAiwIAAAAARgQAAAAAiwIAAAAARwQAAAAARwQAAAAAiwIAAAAARwQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAQAAAAARwQAAAAARgQAAAAARgQAAAAARwQAAAAARwQAAAAARwQAAAAAiwIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQQAAAAAQQQAAAAAQQQAAAAAQQQAAAAAiwIAAAAARwQAAAAAiwIAAAAAiwIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQQAAAAAQQQAAAAAQQQAAAAAQQQAAAAAiwIAAAAAiwIAAAAARwQAAAAAiwIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQQAAAAAQQQAAAAAQQQAAAAAQQQAAAAAQQQAAAAAiwIAAAAAiwIAAAAAiwIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          version: 6
+        -1,0:
+          ind: -1,0
+          tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQQAAAAARgQAAAAARgQAAAAAiwIAAAAARwQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQQAAAAAQQQAAAAARgQAAAAARwQAAAAAiwIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQQAAAAARgQAAAAAQQQAAAAARwQAAAAARgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQQAAAAASAQAAAAAQQQAAAAAiwIAAAAARgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQQAAAAASAQAAAAARwQAAAAAiwIAAAAASAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQQAAAAARwQAAAAARwQAAAAARwQAAAAARwQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQQAAAAAQQQAAAAAQQQAAAAAiwIAAAAAQQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQQAAAAAQQQAAAAAQQQAAAAAQQQAAAAAQQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          version: 6
+        -1,-1:
+          ind: -1,-1
+          tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQQAAAAAQQQAAAAAQQQAAAAARgQAAAAARgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQQAAAAAQQQAAAAAQQQAAAAARgQAAAAARwQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQQAAAAAQQQAAAAARgQAAAAARgQAAAAARwQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQQAAAAARgQAAAAAQQQAAAAARwQAAAAASAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQQAAAAARgQAAAAARgQAAAAAiwIAAAAARwQAAAAA
+          version: 6
+        0,-1:
+          ind: 0,-1
+          tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARwQAAAAARwQAAAAARwQAAAAARwQAAAAASAQAAAAASwQAAAAATQQAAAAATAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARwQAAAAARwQAAAAARwQAAAAARwQAAAAARwQAAAAAQQQAAAAAQQQAAAAATQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQQAAAAARwQAAAAASAQAAAAARwQAAAAAQQQAAAAAQQQAAAAAQQQAAAAATQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARwQAAAAARwQAAAAARwQAAAAAQQQAAAAAQQQAAAAAQQQAAAAAQQQAAAAAQQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQQAAAAARwQAAAAARwQAAAAAQQQAAAAAQQQAAAAAQQQAAAAAQQQAAAAAQQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          version: 6
+    - type: Broadphase
+    - type: Physics
+      bodyStatus: InAir
+      angularDamping: 0.05
+      linearDamping: 0.05
+      fixedRotation: False
+      bodyType: Dynamic
+    - type: Fixtures
+      fixtures: {}
+    - type: OccluderTree
+    - type: SpreaderGrid
+    - type: Shuttle
+    - type: GridPathfinding
+    - type: Gravity
+      gravityShakeSound: !type:SoundPathSpecifier
+        path: /Audio/Effects/alert.ogg
+    - type: DecalGrid
+      chunkCollection:
+        version: 2
+        nodes: []
+    - type: GridAtmosphere
+      version: 2
+      data:
+        chunkSize: 4
+    - type: GasTileOverlay
+    - type: AreaGrid
+      areaEntities: {}
+      colors: {}
+      areas:
+        -5,5: RMCAreaShivaInteriorOob
+        -5,4: RMCAreaShivaInteriorOob
+        -5,3: RMCAreaShivaInteriorOob
+        -5,2: RMCAreaShivaInteriorOob
+        -5,1: RMCAreaShivaInteriorOob
+        -5,0: RMCAreaShivaInteriorOob
+        -5,-1: RMCAreaShivaInteriorOob
+        -5,-2: RMCAreaShivaInteriorOob
+        -5,-3: RMCAreaShivaInteriorOob
+        -5,-4: RMCAreaShivaInteriorOob
+        -5,-5: RMCAreaShivaInteriorOob
+        -4,-3: RMCAreaShivaInteriorOob
+        -4,-4: RMCAreaShivaInteriorOob
+        -4,-5: RMCAreaShivaInteriorOob
+        -3,-4: RMCAreaShivaInteriorOob
+        -3,-5: RMCAreaShivaInteriorOob
+        -5,7: RMCAreaShivaInteriorLz2Habs
+        -5,6: RMCAreaShivaInteriorLz2Habs
+        -4,6: RMCAreaShivaInteriorLz2Habs
+        -4,7: RMCAreaShivaInteriorLz2Habs
+        -3,7: RMCAreaShivaInteriorLz2Habs
+        -2,7: RMCAreaShivaInteriorLz2Habs
+        -1,7: RMCAreaShivaInteriorLz2Habs
+        0,7: RMCAreaShivaInteriorLz2Habs
+        1,7: RMCAreaShivaInteriorLz2Habs
+        2,7: RMCAreaShivaInteriorLz2Habs
+        3,7: RMCAreaShivaInteriorLz2Habs
+        4,7: RMCAreaShivaInteriorLz2Habs
+        -1,6: RMCAreaShivaInteriorLz2Habs
+        0,6: RMCAreaShivaInteriorLz2Habs
+        1,6: RMCAreaShivaInteriorLz2Habs
+        2,6: RMCAreaShivaInteriorLz2Habs
+        7,6: RMCAreaShivaExteriorLz2Fortress
+        6,6: RMCAreaShivaExteriorLz2Fortress
+        5,6: RMCAreaShivaExteriorLz2Fortress
+        4,6: RMCAreaShivaExteriorLz2Fortress
+        3,6: RMCAreaShivaExteriorLz2Fortress
+        5,7: RMCAreaShivaExteriorLz2Fortress
+        6,7: RMCAreaShivaExteriorLz2Fortress
+        7,7: RMCAreaShivaExteriorLz2Fortress
+        4,5: RMCAreaShivaExteriorLz2Fortress
+        6,5: RMCAreaShivaExteriorLz2Fortress
+        7,5: RMCAreaShivaExteriorLz2Fortress
+        5,5: RMCAreaShivaExteriorLz2Fortress
+        5,4: RMCAreaShivaExteriorLz2Fortress
+        5,3: RMCAreaShivaExteriorLz2Fortress
+        5,2: RMCAreaShivaExteriorLz2Fortress
+        5,1: RMCAreaShivaExteriorLz2Fortress
+        5,0: RMCAreaShivaExteriorLz2Fortress
+        5,-1: RMCAreaShivaExteriorLz2Fortress
+        5,-2: RMCAreaShivaExteriorLz2Fortress
+        6,4: RMCAreaShivaExteriorLz2Fortress
+        6,3: RMCAreaShivaExteriorLz2Fortress
+        6,2: RMCAreaShivaExteriorLz2Fortress
+        6,1: RMCAreaShivaExteriorLz2Fortress
+        6,0: RMCAreaShivaExteriorLz2Fortress
+        6,-1: RMCAreaShivaExteriorLz2Fortress
+        7,4: RMCAreaShivaExteriorLz2Fortress
+        6,-2: RMCAreaShivaExteriorLz2Fortress
+        7,3: RMCAreaShivaExteriorLz2Fortress
+        7,2: RMCAreaShivaExteriorLz2Fortress
+        7,1: RMCAreaShivaExteriorLz2Fortress
+        7,0: RMCAreaShivaExteriorLz2Fortress
+        7,-1: RMCAreaShivaExteriorLz2Fortress
+        7,-2: RMCAreaShivaExteriorLz2Fortress
+        5,-3: RMCAreaShivaExteriorLz2Fortress
+        5,-4: RMCAreaShivaExteriorLz2Fortress
+        6,-3: RMCAreaShivaExteriorLz2Fortress
+        6,-4: RMCAreaShivaExteriorLz2Fortress
+        6,-5: RMCAreaShivaExteriorCpLz2
+        7,-5: RMCAreaShivaExteriorCpLz2
+        7,-4: RMCAreaShivaExteriorCpLz2
+        7,-3: RMCAreaShivaExteriorCpLz2
+        -3,6: RMCAreaShivaInteriorCavesSLz2
+        -2,6: RMCAreaShivaInteriorCavesSLz2
+        -4,5: RMCAreaShivaInteriorCavesSLz2
+        -4,4: RMCAreaShivaInteriorCavesSLz2
+        -4,3: RMCAreaShivaInteriorCavesSLz2
+        -4,2: RMCAreaShivaInteriorCavesSLz2
+        -4,1: RMCAreaShivaInteriorCavesSLz2
+        -4,0: RMCAreaShivaInteriorCavesSLz2
+        -4,-1: RMCAreaShivaInteriorCavesSLz2
+        -3,5: RMCAreaShivaInteriorCavesSLz2
+        -3,4: RMCAreaShivaInteriorCavesSLz2
+        -3,3: RMCAreaShivaInteriorCavesSLz2
+        -3,2: RMCAreaShivaInteriorCavesSLz2
+        -3,1: RMCAreaShivaInteriorCavesSLz2
+        -3,0: RMCAreaShivaInteriorCavesSLz2
+        -3,-1: RMCAreaShivaInteriorCavesSLz2
+        -2,5: RMCAreaShivaInteriorCavesSLz2
+        -2,4: RMCAreaShivaInteriorCavesSLz2
+        -2,3: RMCAreaShivaInteriorCavesSLz2
+        -2,2: RMCAreaShivaInteriorCavesSLz2
+        -2,1: RMCAreaShivaInteriorCavesSLz2
+        -2,0: RMCAreaShivaInteriorCavesSLz2
+        -2,-1: RMCAreaShivaInteriorCavesSLz2
+        -1,5: RMCAreaShivaInteriorCavesSLz2
+        -1,4: RMCAreaShivaInteriorCavesSLz2
+        -1,3: RMCAreaShivaInteriorCavesSLz2
+        -1,2: RMCAreaShivaInteriorCavesSLz2
+        -1,1: RMCAreaShivaInteriorCavesSLz2
+        -1,0: RMCAreaShivaInteriorCavesSLz2
+        -1,-1: RMCAreaShivaInteriorCavesSLz2
+        0,5: RMCAreaShivaInteriorCavesSLz2
+        0,4: RMCAreaShivaInteriorCavesSLz2
+        0,3: RMCAreaShivaInteriorCavesSLz2
+        0,2: RMCAreaShivaInteriorCavesSLz2
+        0,1: RMCAreaShivaInteriorCavesSLz2
+        0,0: RMCAreaShivaInteriorCavesSLz2
+        0,-1: RMCAreaShivaInteriorCavesSLz2
+        1,5: RMCAreaShivaInteriorCavesSLz2
+        1,4: RMCAreaShivaInteriorCavesSLz2
+        1,3: RMCAreaShivaInteriorCavesSLz2
+        1,2: RMCAreaShivaInteriorCavesSLz2
+        1,1: RMCAreaShivaInteriorCavesSLz2
+        1,0: RMCAreaShivaInteriorCavesSLz2
+        1,-1: RMCAreaShivaInteriorCavesSLz2
+        2,4: RMCAreaShivaInteriorCavesSLz2
+        2,3: RMCAreaShivaInteriorCavesSLz2
+        2,5: RMCAreaShivaInteriorCavesSLz2
+        2,2: RMCAreaShivaInteriorCavesSLz2
+        2,1: RMCAreaShivaInteriorCavesSLz2
+        2,-1: RMCAreaShivaInteriorCavesSLz2
+        3,5: RMCAreaShivaInteriorCavesSLz2
+        3,4: RMCAreaShivaInteriorCavesSLz2
+        3,3: RMCAreaShivaInteriorCavesSLz2
+        3,2: RMCAreaShivaInteriorCavesSLz2
+        3,1: RMCAreaShivaInteriorCavesSLz2
+        3,0: RMCAreaShivaInteriorCavesSLz2
+        2,0: RMCAreaShivaInteriorCavesSLz2
+        3,-1: RMCAreaShivaInteriorCavesSLz2
+        4,4: RMCAreaShivaInteriorCavesSLz2
+        4,3: RMCAreaShivaInteriorCavesSLz2
+        4,2: RMCAreaShivaInteriorCavesSLz2
+        4,1: RMCAreaShivaInteriorCavesSLz2
+        4,0: RMCAreaShivaInteriorCavesSLz2
+        4,-1: RMCAreaShivaInteriorCavesSLz2
+        -4,-2: RMCAreaShivaInteriorCavesSLz2
+        -3,-2: RMCAreaShivaInteriorCavesSLz2
+        -2,-2: RMCAreaShivaInteriorCavesSLz2
+        -1,-2: RMCAreaShivaInteriorCavesSLz2
+        0,-2: RMCAreaShivaInteriorCavesSLz2
+        1,-2: RMCAreaShivaInteriorCavesSLz2
+        2,-2: RMCAreaShivaInteriorCavesSLz2
+        3,-2: RMCAreaShivaInteriorCavesSLz2
+        4,-2: RMCAreaShivaInteriorCavesSLz2
+        -3,-3: RMCAreaShivaInteriorCavesSLz2
+        -2,-3: RMCAreaShivaInteriorCavesSLz2
+        -1,-3: RMCAreaShivaInteriorCavesSLz2
+        0,-3: RMCAreaShivaInteriorCavesSLz2
+        1,-3: RMCAreaShivaInteriorCavesSLz2
+        2,-3: RMCAreaShivaInteriorCavesSLz2
+        3,-3: RMCAreaShivaInteriorCavesSLz2
+        4,-3: RMCAreaShivaInteriorCavesSLz2
+        -2,-4: RMCAreaShivaInteriorCavesSLz2
+        -2,-5: RMCAreaShivaInteriorCavesSLz2
+        -1,-4: RMCAreaShivaInteriorCavesSLz2
+        -1,-5: RMCAreaShivaInteriorCavesSLz2
+        0,-4: RMCAreaShivaInteriorCavesSLz2
+        0,-5: RMCAreaShivaInteriorCavesSLz2
+        1,-4: RMCAreaShivaInteriorCavesSLz2
+        1,-5: RMCAreaShivaInteriorCavesSLz2
+        2,-4: RMCAreaShivaInteriorCavesSLz2
+        2,-5: RMCAreaShivaInteriorCavesSLz2
+        3,-4: RMCAreaShivaInteriorCavesSLz2
+        3,-5: RMCAreaShivaInteriorCavesSLz2
+        4,-4: RMCAreaShivaInteriorCavesSLz2
+        4,-5: RMCAreaShivaInteriorCavesSLz2
+        5,-5: RMCAreaShivaInteriorCavesSLz2
+- proto: CMBarricadeMetal
+  entities:
+  - uid: 7
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 6.5,4.5
+      parent: 2
+  - uid: 9
+    components:
+    - type: Transform
+      pos: 5.5,5.5
+      parent: 2
+  - uid: 11
+    components:
+    - type: Transform
+      pos: 4.5,5.5
+      parent: 2
+  - uid: 12
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 6.5,2.5
+      parent: 2
+- proto: CMShardGlass
+  entities:
+  - uid: 62
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 2.5,-0.5
+      parent: 2
+- proto: RCMWallShivaIce
+  entities:
+  - uid: 3
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 4.5,0.5
+      parent: 2
+  - uid: 10
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -3.5,-4.5
+      parent: 2
+  - uid: 13
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -4.5,-1.5
+      parent: 2
+  - uid: 15
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -4.5,-0.5
+      parent: 2
+  - uid: 16
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 0.5,5.5
+      parent: 2
+  - uid: 24
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -4.5,-4.5
+      parent: 2
+  - uid: 25
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -3.5,-3.5
+      parent: 2
+  - uid: 26
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -4.5,-3.5
+      parent: 2
+  - uid: 27
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -4.5,5.5
+      parent: 2
+  - uid: 28
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -4.5,-2.5
+      parent: 2
+  - uid: 29
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 1.5,5.5
+      parent: 2
+  - uid: 30
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -3.5,-2.5
+      parent: 2
+  - uid: 31
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 2.5,5.5
+      parent: 2
+  - uid: 32
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -2.5,-4.5
+      parent: 2
+  - uid: 35
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 3.5,5.5
+      parent: 2
+  - uid: 36
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -2.5,-3.5
+      parent: 2
+  - uid: 37
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 3.5,6.5
+      parent: 2
+  - uid: 47
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -4.5,2.5
+      parent: 2
+  - uid: 48
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -4.5,3.5
+      parent: 2
+  - uid: 49
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -4.5,1.5
+      parent: 2
+  - uid: 51
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -4.5,0.5
+      parent: 2
+  - uid: 56
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -4.5,4.5
+      parent: 2
+  - uid: 57
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 4.5,-1.5
+      parent: 2
+  - uid: 58
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 4.5,-2.5
+      parent: 2
+  - uid: 59
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 4.5,-0.5
+      parent: 2
+  - uid: 60
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 3.5,-0.5
+      parent: 2
+  - uid: 61
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 3.5,-1.5
+      parent: 2
+- proto: RCMWallShivaInvincibleFab
+  entities:
+  - uid: 5
+    components:
+    - type: Transform
+      pos: 5.5,1.5
+      parent: 2
+  - uid: 20
+    components:
+    - type: Transform
+      pos: 6.5,1.5
+      parent: 2
+  - uid: 21
+    components:
+    - type: Transform
+      pos: 6.5,-1.5
+      parent: 2
+  - uid: 22
+    components:
+    - type: Transform
+      pos: 5.5,-3.5
+      parent: 2
+  - uid: 23
+    components:
+    - type: Transform
+      pos: 5.5,-0.5
+      parent: 2
+  - uid: 38
+    components:
+    - type: Transform
+      pos: 7.5,-0.5
+      parent: 2
+  - uid: 39
+    components:
+    - type: Transform
+      pos: 5.5,0.5
+      parent: 2
+  - uid: 40
+    components:
+    - type: Transform
+      pos: 6.5,0.5
+      parent: 2
+  - uid: 41
+    components:
+    - type: Transform
+      pos: 6.5,-0.5
+      parent: 2
+  - uid: 42
+    components:
+    - type: Transform
+      pos: 7.5,-1.5
+      parent: 2
+  - uid: 43
+    components:
+    - type: Transform
+      pos: 5.5,-1.5
+      parent: 2
+  - uid: 44
+    components:
+    - type: Transform
+      pos: 5.5,-2.5
+      parent: 2
+  - uid: 45
+    components:
+    - type: Transform
+      pos: 6.5,-3.5
+      parent: 2
+  - uid: 46
+    components:
+    - type: Transform
+      pos: 6.5,-2.5
+      parent: 2
+- proto: RCMWallShivaReinforcedFabPink
+  entities:
+  - uid: 4
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 3.5,7.5
+      parent: 2
+  - uid: 6
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 2.5,7.5
+      parent: 2
+  - uid: 8
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 4.5,7.5
+      parent: 2
+  - uid: 14
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -4.5,7.5
+      parent: 2
+  - uid: 17
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -0.5,6.5
+      parent: 2
+  - uid: 18
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 0.5,6.5
+      parent: 2
+  - uid: 19
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -4.5,6.5
+      parent: 2
+  - uid: 33
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 2.5,6.5
+      parent: 2
+  - uid: 34
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 1.5,6.5
+      parent: 2
+  - uid: 50
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 1.5,7.5
+      parent: 2
+  - uid: 52
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -3.5,7.5
+      parent: 2
+  - uid: 53
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -3.5,6.5
+      parent: 2
+  - uid: 54
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -0.5,7.5
+      parent: 2
+  - uid: 55
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 0.5,7.5
+      parent: 2
+...
