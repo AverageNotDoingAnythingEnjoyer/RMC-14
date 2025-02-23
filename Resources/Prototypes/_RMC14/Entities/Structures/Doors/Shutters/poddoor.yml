@@ -43,6 +43,8 @@
   - type: StaticPrice
     price: 280
   - type: RMCPodDoor
+  - type: Corrodible
+    isCorrodible: false
 
 - type: entity
   parent: RMCShutterBaseIndestructible
