@@ -4,6 +4,8 @@
   id: CMShuttleTileBase
   name: tiles-cm-floor
   canPlaceTunnel: false
+  blockAnchoring: true
+  blockConstruction: true
 
 - type: tile
   parent: CMShuttleTileBase
