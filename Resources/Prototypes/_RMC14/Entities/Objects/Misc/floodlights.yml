@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: RMCSmallFloodlight
-  name: small floodlight
-  description: A small bit of light in the darkness.
+  name: emergency floodlight
+  description: A powerful light usually stationed near landing zones to provide better visibility.
   components:
   - type: Transform
     anchored: true

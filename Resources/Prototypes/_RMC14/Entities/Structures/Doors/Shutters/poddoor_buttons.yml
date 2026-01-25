@@ -44,6 +44,7 @@
   parent: RMCPodDoorButton
   id: RMCPodDoorButtonShip
   name: button
+  suffix: Shipside
   description: A basic button that does basic things.
 
 - type: entity

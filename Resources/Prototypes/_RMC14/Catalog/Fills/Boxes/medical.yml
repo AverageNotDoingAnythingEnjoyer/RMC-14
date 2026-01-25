@@ -1,5 +1,5 @@
 - type: entity
-  name: sterile mask box
+  name: box of sterile masks
   parent: RMCBoxCardboard
   id: RMCBoxSterileMask
   description: This box contains sterile medical masks.
@@ -12,7 +12,7 @@
     state: sterile
 
 - type: entity
-  name: latex gloves box
+  name: box of latex gloves
   parent: RMCBoxCardboard
   id: RMCBoxLatexGloves
   description: Contains sterile latex gloves.
