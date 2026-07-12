@@ -4,8 +4,8 @@ meta:
   engineVersion: 264.0.2
   forkId: ""
   forkVersion: ""
-  time: 06/24/2026 15:32:11
-  entityCount: 30250
+  time: 07/12/2026 22:43:23
+  entityCount: 30252
 maps:
 - 1
 grids:
@@ -46239,7 +46239,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -105374.64
+      secondsUntilStateChange: -105516.695
       state: Opening
 - proto: CMAirlockMedicalLocked
   entities:
@@ -56990,7 +56990,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 10666.0893339
     - type: Door
-      secondsUntilStateChange: -92953.3
+      secondsUntilStateChange: -93095.35
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -57006,7 +57006,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 10666.0893339
     - type: Door
-      secondsUntilStateChange: -92953.3
+      secondsUntilStateChange: -93095.35
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -91363,6 +91363,11 @@ entities:
     - type: Transform
       pos: 7.5,-95.5
       parent: 1
+  - uid: 30251
+    components:
+    - type: Transform
+      pos: -23.5,45.5
+      parent: 1
 - proto: RMCDecalSpawnerGibsDrone
   entities:
   - uid: 29650
@@ -112866,6 +112871,13 @@ entities:
     components:
     - type: Transform
       pos: -82.38755,5.786193
+      parent: 1
+- proto: RMCLaserDesignator
+  entities:
+  - uid: 30252
+    components:
+    - type: Transform
+      pos: -23.5,45.5
       parent: 1
 - proto: RMCLighter
   entities:

@@ -84,7 +84,6 @@
   - type: StorageFill
     contents:
     - id: RMCRadioHandheldColony
-    - id: RMCLaserDesignator
     - id: RMCDrinkAlcoholDavenport
     - id: RMCZippoGold
     - id: CMTarbackCigar
